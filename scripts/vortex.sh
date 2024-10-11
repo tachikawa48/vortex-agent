@@ -129,7 +129,7 @@ install_gost() {
       return
     fi
   fi
-  local url="https://github.com/go-gost/gost/releases/download/v$gost_version/gost_${gost_version}_linux_$arch.tar.gz"
+  local url="https://github.com/go-gost/gost/releases/download/v3.0.0-nightly.20241010/gost_3.0.0-nightly.20241010_linux_amd64.tar.gz"
   download "$url" gost
   chmod -R 777 /usr/bin/gost
 
